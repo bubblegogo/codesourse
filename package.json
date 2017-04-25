@@ -1,0 +1,45 @@
+{
+  "_args": [
+    [
+      "../node_modules/censorify/censorify-0.1.1.tgz",
+      "E:\\nodeEg"
+    ]
+  ],
+  "_from": "node_modules\\censorify\\censorify-0.1.1.tgz",
+  "_id": "censorify@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/censorify",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": null,
+    "raw": "../node_modules/censorify/censorify-0.1.1.tgz",
+    "rawSpec": "../node_modules/censorify/censorify-0.1.1.tgz",
+    "scope": null,
+    "spec": "E:\\nodeEg\\node_modules\\censorify\\censorify-0.1.1.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:node_modules\\censorify\\censorify-0.1.1.tgz",
+  "_shasum": "2f6547bfad27753aec75924b8bf96759b1d285bb",
+  "_shrinkwrap": null,
+  "_spec": "../node_modules/censorify/censorify-0.1.1.tgz",
+  "_where": "E:\\nodeEg",
+  "author": {
+    "name": "saisai"
+  },
+  "dependencies": {},
+  "description": "censors words out of text",
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "main": "censortext",
+  "name": "censorify",
+  "optionalDependencies": {},
+  "readme": "made  in sai ",
+  "readmeFilename": "README.md",
+  "version": "0.1.1"
+}
