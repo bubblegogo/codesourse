@@ -1,0 +1,74 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 100px;
+}
+.color1{
+  background: #2ec7c9
+}
+.color2{
+  background: #b6a2de
+}
+.color3{
+  background: #5ab1ef
+}
+.color4{
+  background: #ffb980
+}
+.color5{
+  background: #d87a80
+}
+.color6{
+  background: #e5cf0d
+}
+.color7{
+  background: #95706d
+}
+.color8{
+  background: #dc69aa
+}
+.section{
+ margin-top:40px;
+}
+.flex-title{
+  color: #aaa;
+  margin-bottom: 10px;
+  margin-left:10px;
+}
+.flex-middle{
+  line-height:80rpx;
+  vertical-align:middle;
+}
+
+.flex-wrp{
+  position: relative;
+  width: 100%;
+  display: inline-block;
+ 
+}
+.flex-item{
+  float:left;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 5px;
+
+}
+

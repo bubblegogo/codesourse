@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container" style = "padding:0;">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+    
+    <view  wx:if="{{allobjAry.length == 0}}" class="section flex-wrp" style="flex-direction:row;" >
+      <view class="flex-title"> 测试案例 </view>
+      <view wx:for="{{iconColor}}" wx:key="key" class="flex-item color{{index+1}}">
+         <view class="flex-middle"> {{item}}  </view>
+      </view>
+    </view>
+
+    <view wx:if="{{allobjAry.length != 0}}" wx:key="key" class="section flex-wrp" wx:for="{{allobjAry}}" style="flex-direction:row;" >
+      <view class="flex-title"> 第 {{index+1}} 桌  </view>
+      <view wx:for="{{item}}" wx:key="key" class="flex-item color{{index+1}}">
+         <view class="flex-middle"> {{item}}  </view>
+      </view>
+    </view>
+
+   <view class="section">
+      <view class="btn-area">
+        <button size="mini" bindtap="randomNum">Random</button>
+      </view>
+  </view>
+
+  <view class="usermotto">
+  </view>
+
+</view>
+
